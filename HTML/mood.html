@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../CSS/mainStyle.css">
+    <style>
+        .images{
+            outline: none;
+        }
+        .style-main{
+            background: linear-gradient(105.21deg, #227C70 10%, #362FD9 61.1%);
+        }
+        .text-header h1{
+            color: #227C70;
+        }
+        .mood-container{
+            display: grid;
+            margin-top: 20vh;
+            height: fit-content;
+        }
+        .moods{
+            position: absolute;
+            width: 1000px;
+        }
+        .mood-card{
+            width: 40vw;
+        }
+        img{
+            width: 300px;
+        }
+        .mood-card-content p{
+            width: 500px;
+        }
+    </style>
+    <title>Mood</title>
+</head>
+<body>
+    <div class="style-main">
+        <div class="text-header">
+            <h1>Mood</h1>
+        </div>
+        <div class="style-content">
+            <div class="text">
+                <p>
+                    As músicas me ajudam a me motivar, animar, a superar, ser melhor, a encarar os desafios da vida.
+                    <br><br>
+                    Ao lado estão alguns tipos de música, e como cada uma me influência.
+                </p>
+            </div>
+            <div class="images"></div>
+            <div class="mood-container">
+                <div class="moods">
+                    <div class="mood-card">
+                        <div class="mood-card-title">Metal</div>
+                        
+                        <div class="mood-card-content">
+                            <p>Normalmente quando estou agitado ou frenético. Infelizmente não fúnciona tanto enquanto programo, porque é difcil "bangear" e escrever ao mesmo tempo.</p>
+                        </div>
+                    </div>
+                    <div class="mood-card" hidden>
+                        <div class="mood-card-title">Indie</div>
+                        
+                        <div class="mood-card-content">
+                            <p>momentos calmo, ou para acalmar e relaxar. É ótimo para passar o tempo enquanto faz uma tarefa de longo tempo, sem perder a concentração.</p>
+                        </div>
+                    </div>
+                    <div class="mood-card" hidden>
+                        <div class="mood-card-title">Clássica</div>
+                        
+                        <div class="mood-card-content">
+                            <p>A música clássica é inspiradora, me dá foco total e um ritmo incrível e me enche de ideias (por algum motivo) para programar, desenhar ou fazer designs.</p>
+                        </div>
+                    </div>
+                    <div class="btnlayout">
+                        <button onclick="">></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="header">
+            <a href="profile.html">Eu</a>
+            <a href="style.html">Estilo</a>
+            <a href="favorites.html">Favoritos</a>
+            <a href="disk.html">Discos</a>
+            <a href="videos.html">Videos</a>
+            <a href="mood.html" id="active">Mood</a>
+            <a href="reasons.html">Motivos</a>
+        </div>
+    </header>
+</body>
+</html>
