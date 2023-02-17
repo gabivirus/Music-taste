@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+:root{
+    --marcus-dark: #20262E;
+    --marcus-purple: #913175;
+    --marcus-pink: #CD5888;
+    --marcus-light: #E9E8E8;
+
+    --gabriel-dark: #1C315E;
+    --gabriel-cian: #227C70;
+    --gabriel-green: #88A47C;
+    --gabriel-light: #E6E2C3;
+
+    --home-b: #5D3891;
+    --home-y: #F99417;
+    --home-g: #E8E2E2;
+    --home-w: #F5F5F5;
+
+    --border-radius: 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(140deg, #5D3891 0%, #CD5888 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 50%;
+    height: fit-content;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gabriel{
+    background: rgba( 255, 255, 255, 0.25 );
+    background: linear-gradient(0deg, #0e0e0e7a 70%, #ffffff79 40%);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0px 10px 20px var(--marcus-dark);
+    border-top: 1px solid #ffffffbb;
+    border-left: 1px solid #ffffff6e;
+    width: 350px;
+    height: 450px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.index-photo{
+    position: relative;
+    padding: 40px 10px;
+    margin-bottom: 40%;
+    height: 30%;
+    background: transparent;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+img{
+    min-width: 55%;
+    width: 55%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    outline: 5px solid  rgba(0,123,148,1);
+}
+
+.options{
+    margin: auto;
+    bottom: 0;
+    justify-content: center;
+}
+
+.options p{
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.entrar{
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    background: rgb(6,0,110);
+    background: linear-gradient(140deg, rgba(6,0,110,1) 0%, rgba(0,123,148,1) 100%);
+    color: var(--home-w);
+    padding: 15px 25px;
+    margin-bottom: 20px;
+}
+
+button{
+    cursor: pointer;
+}
